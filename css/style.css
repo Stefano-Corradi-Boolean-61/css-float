@@ -12,6 +12,7 @@
 
 main{
   background-color: brown;
+  text-align: justify;
 }
 
 .col{
@@ -19,13 +20,12 @@ main{
 }
 
 .col-left{
-  width: 30%;
+  width: 29%;
+  margin-right: 1%;
   background-color: aquamarine;
-  height: 500px;
 }
 
 .col-right{
   width: 70%;
   background-color: blueviolet;
-  height: 700px;
 }
