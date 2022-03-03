@@ -13,19 +13,27 @@
 main{
   background-color: brown;
   text-align: justify;
+  padding: 20px 0;
+}
+p{
+  margin-bottom: 20px;
 }
 
 .col{
   float: left;
 }
 
+.col-left p:first-child{
+
+  background-color: antiquewhite;
+}
+
 .col-left{
-  width: 30%;
-  padding-right: 1%;
-  background-color: aquamarine;
+  width: 29%;
+  margin-right: 1%;
 }
 
 .col-right{
   width: 70%;
-  background-color: blueviolet;
+  background-color: aquamarine;
 }
