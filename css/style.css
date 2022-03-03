@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  text-align: justify;
+}
+
+.box{
+  width: 400px;
+  height: 300px;
+  background-color: red;
+}
+
+.sx{
+  float: left;
+  margin-right: 10px;
+}
+
+.dx{
+  float: right;
+  margin-left: 10px;
+}
