@@ -11,29 +11,21 @@
 }
 
 main{
-  border: 2px solid green;
-  width: 1000px;
-  /* height: 600px; */
-  margin: 20px auto;
+  background-color: brown;
 }
 
-
-.box{
-  width: 400px;
-  height: 300px;
-  background-color: red;
-}
-
-.sx{
+.col{
   float: left;
 }
 
-.dx{
-  float: right;
-  background-color: blue;
+.col-left{
+  width: 30%;
+  background-color: aquamarine;
+  height: 500px;
 }
 
-footer{
-  height: 100px;
-  background-color: aqua;
+.col-right{
+  width: 70%;
+  background-color: blueviolet;
+  height: 700px;
 }
